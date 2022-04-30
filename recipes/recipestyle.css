@@ -1,0 +1,41 @@
+header{
+display:block;
+height: 8rem;
+width:95%;
+margin: 1rem;
+}
+h6{
+display: block;
+position: relative;
+left: 6rem;
+font-size: 2rem;
+margin: 0;
+
+}
+ul{
+width: 100%;
+display:flex;
+
+list-style-type: none;
+background-color: rgb(101, 101, 250);
+justify-content: flex-end;
+gap: 30px;
+
+
+
+
+}
+
+li{
+    float:left
+    }
+
+label,input{
+display:block}
+
+.search{
+display: flex;
+justify-content: flex-end;
+width: 100%;
+
+}
