@@ -1,0 +1,62 @@
+header{
+display:block;
+height: 8rem;
+width:95%;
+margin: 1rem;
+}
+header > img{
+width: 4rem;
+height: 4rem;
+position: absolute;
+top: 0.5rem;
+}
+h6{
+display: block;
+position: relative;
+left: 6rem;
+font-size: 2rem;
+margin: 0;
+
+}
+
+
+ul{
+width: 25%;
+display:flex;
+list-style-type: none;
+background-color: rgb(101, 101, 250);
+justify-content: flex-end;
+padding: 0;
+gap: 30px;
+margin: 0%;
+position: absolute;
+right: 5rem;
+top: 1.5rem;
+
+
+
+
+}
+
+li{
+    float:left
+    }
+
+label,input{
+display:block}
+
+.search{
+display: flex;
+justify-content: flex-end;
+width: 100%;
+position: absolute;
+right: 5rem;
+}
+
+hr{
+position: relative;
+top: 2rem;
+color: #333;
+
+
+}
