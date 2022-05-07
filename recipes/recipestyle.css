@@ -1,18 +1,11 @@
-
-
-
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body {
-    background-color: beige;
-}
 
 header{
-    
 display:block;
 height: 8rem;
 width:95%;
