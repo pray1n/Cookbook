@@ -1,18 +1,9 @@
-Hello
-
-
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
-body {
-    background-color: beige;
-}
-
 header{
-    
 display:block;
 height: 8rem;
 width:95%;
@@ -47,9 +38,6 @@ position: absolute;
 right: 5rem;
 top: 1.5rem;
 
-
-
-
 }
 
 li{
@@ -72,5 +60,73 @@ position: relative;
 top: 2rem;
 color: #333;
 
-
 }
+
+
+/* main ling  */
+
+
+
+
+h1{
+     font-size: 2rem;
+     font-weight: bold;
+    }
+    
+    
+
+
+    
+
+    .rating { 
+      border: none;
+      float: left;
+    }
+    
+    .rating > input { display: none; } 
+    .rating > label:before { 
+      margin: 5px;
+      font-size: 1.25em;
+      font-family: FontAwesome;
+      display: inline-block;
+      content: "\f005";
+    }
+    
+
+    .rating > label { 
+      color: #ddd; 
+      float: right; 
+    }
+    
+    
+    .rating > input:checked ~ label, 
+    .rating:not(:checked) > label:hover, 
+    .rating:not(:checked) > label:hover ~ label { color: #FFD700;  } 
+    
+    .rating > input:checked + label:hover, 
+    .rating > input:checked ~ label:hover,
+    .rating > label:hover ~ input:checked ~ label, 
+    .rating > input:checked ~ label:hover ~ label { color: #FFED85;  } 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
