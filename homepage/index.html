@@ -11,23 +11,62 @@
 
 <body>    
     <header>
-        <img src="/cook.png">
+        <img src="../cook.png">
         <h6>Wonderful CookBook</h6>
-        <nav>
-                <ul id="navigation">
-                        <a href="../../homepage/index.html"><li class="header">Home</li></a>
-                        <a href="#starters.html"><li>Starters</li></a>
-                        <a href="#maincourse.html"><li>Main Course</li></a>
-                        <a href="#dessert.html"><li>Dessert</li></a>
+        <nav class="nav">
+                <ul id="navigation" class="nav">
+                        
+                        <div class="dropdown">
+                            <a href="../../homepage/index.html"> <button class="dropbtn">Home</button> </a>
+                           
+                        </div>
+                        <div class="dropdown">
+                            <button class="dropbtn">Starters</button>
+                            <div class="dropdown-content">
+                                <a href="../appetizer/Chef's Salad.html">Chef Salad</a>
+                                <a href="../../homepage/index.html">Link</a>
+                                <a href="../../homepage/index.html">Link</a>
+                            </div>
+                        </div>
+
+                        <div class="dropdown">
+                            <button class="dropbtn">Main Course</button>
+                            <div class="dropdown-content">
+                                <a href="../maincourse/coconutcarrot.html">Coconut Carrot Soup</a>
+                                <a href="../../homepage/index.html">Link</a>
+                                <a href="../../homepage/index.html">Link</a>
+                            </div>
+
+                        </div>
+
+                        <div class="dropdown">
+                            <button class="dropbtn">Desserts</button>
+                            <div class="dropdown-content">
+                                <a href="../../recipes/dessert/Chocolate Cupcake.html">Chocolate Cupcake</a>
+                                <a href="../../homepage/index.html">Link</a>
+                                <a href="../../homepage/index.html">Link</a>
+
+                        </div>
+                    </div>
+                
+
+
+
                 </ul>
-        </nav>
 
-        <div class="search">
-        <label>Search</label>
-        <input type="search" >
-        </div>
+    </nav>
+    <div class="search">
 
-     <hr>    
+
+
+    <label>Search</label>
+    <input type="search" >
+
+
+    </div>
+
+
+    <hr>
     </header>
 
 
