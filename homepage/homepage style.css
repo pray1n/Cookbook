@@ -53,7 +53,9 @@ header > img{
     width: 4rem;
     height: 4rem;
     position: absolute;
-    top: 0.5rem;}
+    top: 1.5rem;
+    left: 3.5rem;
+}
 
 footer{
         width: auto;
@@ -72,6 +74,7 @@ font-size: 2rem;
 font-family: fantasy;
 width: 30%;
 padding: 0;
+margin: 1.5rem;
 
 }
 
@@ -108,13 +111,14 @@ label,input{
 display:block}
 
 .search{
-display: flex;
-justify-content: flex-end;
-width: 100%;
-position: absolute;
-right: 12rem;
-top: 6rem;
-}
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    position: absolute;
+    right: 12rem;
+    top: 6rem;
+    }
+
 .dropdown {
     position: relative;
     display: inline-block;}
