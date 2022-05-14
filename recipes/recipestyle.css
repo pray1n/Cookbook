@@ -1,3 +1,9 @@
+@media only screen and (max-width: 600px) {
+    header {
+      ;
+    }
+  }
+
 *{
     margin: 0;
     padding: 0;
@@ -22,6 +28,7 @@ display: inline-block;
 position: relative;
 left: 6rem;
 font-size: 2rem;
+font-family: fantasy;
 width: 30%;
 padding: 0;
 
@@ -32,13 +39,14 @@ ul{
 width: 50%;
 display: flex;
 list-style-type: none;
-background-color: beige;
 padding: 0;
 margin: 0%;
 position: absolute;
 right: 5rem;
 top: 1.5rem;
 justify-content: space-evenly;
+background-color: white;
+
 }
 .dropbtn {
     background-color: #04aa6d;
@@ -46,8 +54,11 @@ justify-content: space-evenly;
     padding: 16px;
     font-size: 16px;
     border:  black;
+    border-radius: 2rem;
 }
-
+.nav{
+background-color: white;
+}
 
 
 
@@ -63,7 +74,7 @@ display: flex;
 justify-content: flex-end;
 width: 100%;
 position: absolute;
-right: 5rem;
+right: 12rem;
 top: 6rem;
 }
 .dropdown {
@@ -98,102 +109,28 @@ top: 6rem;
 
 hr{
 position: relative;
-top: 6rem;
+top: 4rem;
 color: #333;
-
 }
 
-
-/* main  */
-
-main{
-    margin: 0 2rem 0 2rem;
+footer{
+    width: auto;
+    height: 8rem;
 }
 
-h1{
-    font-size: 2.5rem;
-    font-weight: bold;
-    }
-     
-
-.ratingstar { 
-    border: none;
+.footer-flex{
     display: flex;
-    }
-    
-.rating > input { display: none; } 
-.rating > label:before { 
-    margin: 5px;
-    font-size: 1.5em;
-    font-family: FontAwesome;
-    display: inline-block;
-    content: "\f005";
-}
-    
-
-.rating > label { 
-    color: #ddd; 
-    float: right; 
-    }
-    
-    
-.rating > input:checked ~ label, 
-.rating:not(:checked) > label:hover, 
-.rating:not(:checked) > label:hover ~ label { color: #FFD700;  } 
-    
-.rating > input:checked + label:hover, 
-.rating > input:checked ~ label:hover,
-.rating > label:hover ~ input:checked ~ label, 
-.rating > input:checked ~ label:hover ~ label { color: #FFED85;  } 
-
- p{
-    font-size: 1.2rem;
-    line-height: 1.5rem;
-    width: 70%;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: #EBF2F2;
 }
 
-div.dish-picture{
-    display: flex;
-    margin: 2rem auto 0 4rem;
-    
-}
+.footer-flex > img {
 
-div.dish-picture img{
-    width: 50vw;
-}
+    width: 4.5rem;
+    height: 4.5rem;
 
-div.how-to-cook, div.ingredients{
-    margin-top: 2rem;
 
 }
-
-h3{
-    background-color: #0A9E95;
-    color: #fff;
-    text-transform: uppercase;
-}
-
-h4{
-    font-weight: 900;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
