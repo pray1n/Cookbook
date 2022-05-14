@@ -3,7 +3,27 @@
     padding: 0;
     box-sizing: border-box;
 }
+footer{
+    width: auto;
+    height: 8rem;
+}
 
+.footer-flex{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: #EBF2F2;
+}
+
+.footer-flex > img {
+
+    width: 4.5rem;
+    height: 4.5rem;
+
+
+}
 
 header{
 display:block;
@@ -17,6 +37,23 @@ height: 4rem;
 position: absolute;
 top: 0.5rem;
 }
+.footer-flex > img {
+
+    width: 4.5rem;
+    height: 4.5rem;
+
+
+}
+header > img{
+    width: 4rem;
+    height: 4rem;
+    position: absolute;
+    top: 0.5rem;}
+
+footer{
+        width: auto;
+        height: 8rem;
+    }
 h6{
 display: inline-block;
 position: relative;
