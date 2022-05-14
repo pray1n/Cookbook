@@ -1,3 +1,9 @@
+@media only screen and (max-width: 600px) {
+    header {
+      background-color: lightblue;
+    }
+  }
+
 *{
     margin: 0;
     padding: 0;
@@ -103,7 +109,7 @@ top: 6rem;
 
 hr{
 position: relative;
-top: 6rem;
+top: 4rem;
 color: #333;
 }
 
@@ -118,4 +124,13 @@ footer{
     align-content: center;
     flex-direction: column;
     align-items: center;
+    background-color: #EBF2F2;
+}
+
+.footer-flex > img {
+
+    width: 4.5rem;
+    height: 4.5rem;
+
+
 }
